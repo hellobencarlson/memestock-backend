@@ -8,6 +8,7 @@
 // A randomly generated number of starting stocks should be added (there should be a reasonable min/max)
 
 import { commonMiddleware } from '../lib/commonMiddleware';
+import { successResponse } from '../lib/successResponse';
 
 async function createUser(event, context) {
   try {
